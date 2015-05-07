@@ -1,0 +1,44 @@
+<div class="wrapper">
+	Send mail by clicking below button!
+</div>
+
+<form>
+	<input type="button" value="Send email" name="mailSend" id="mailSend">
+</form>
+
+
+
+<script src="jquery-1.10.2.min.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$("#mailSend").on("click", function() {
+		sendEmail();
+	});
+	function sendEmail() {
+		$.ajax({
+  			type: "POST",
+			url: "https://mandrillapp.com/api/1.0/messages/send.json",
+			data: {
+				'key': 'QB-XOrYstFeo_iiV99xRHw',
+				'message': {
+					'from_email': 'avinashrajuadluri@gmail.com',
+					'to': [
+					{
+						'email': 'avi.adlraj@gmail.com',
+						'name': 'Avinash raju adluri',
+						'type': 'to'
+					},
+					],
+					'autotext': 'true',
+					'subject': 'YOUR SUBJECT HERE!',
+					'html': 'YOUR EMAIL CONTENT HERE! YOU CAN USE HTML!'
+				}
+			}
+		}).done(function(response) {
+			console.log(response);  
+			$(".wrapper").text(response);
+		});
+	}
+});
+</script>
