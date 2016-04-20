@@ -1,0 +1,585 @@
+body {
+  overflow: auto;
+}
+h1,h2,h3,h4,h5,h6 {
+  margin-top: 2px;
+}
+legend {
+  font-size:14px;
+  border: 1px solid grey;
+  width: auto;
+  margin:0;
+  background-color: #eee;
+  padding: 2px;
+}
+.row {
+  margin-top: 8px;
+}
+.margin0 {
+  margin-left:0;
+}
+p {
+  font-size: 16px;
+}
+hr {
+  margin: 5px;
+}
+select {
+  padding: 6px;
+  margin-left: 3px;
+}
+select#ssltls , select#webserverversion , select#appserverversion {
+  margin-left: 15px;
+}
+.pull-center {
+  text-align: center;
+}
+.ui-state-default {
+    text-decoration: none;
+    text-align: center;
+}
+.checkbox {
+  margin-left: 10px;
+}
+.content-hide {
+  display: none;
+}
+
+.btn:hover {
+  color: #000000;
+  background-color: #FFFFFF;
+  border-color: #000000;
+  opacity: 0.6;
+}
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
+.navbar-default {
+  background: #006ba6;
+}
+.navbar-brand {
+  padding: 3px 19px;
+}
+.navbar-default .navbar-nav>li>a {
+  color: white;
+}
+.navbar-default .navbar-text {
+  color: yellow;
+}
+/*header ends*/
+/*tabs starts*/
+label , {
+  margin-top: 4px;
+}
+.troNumberLabel {
+  float: right;
+  margin-right: 30px;
+  font-weight: bold;
+}
+.input-group[class*=col-] {
+  float: left;
+}
+.ui-widget-content {
+  background: none;
+}
+#tabs {
+    margin-left: 10px !important;
+    border: none !important;
+}
+#tabs .ui-widget-header {
+  background: none;
+  border: none;
+}
+#tabs section ul {
+  padding-left: 40px;
+}
+.ui-tabs .ui-tabs-nav li {
+  padding:4px 12px;
+  border: none;
+  background: #006ba6;
+  border-radius: 0;
+}
+.ui-tabs .ui-tabs-nav li:hover {
+  background: #72CDFD;
+}
+.ui-tabs .ui-tabs-nav li:hover a{
+  color: black;
+}
+.ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+  color: white;
+  outline: none;
+  font-size: 14px;
+    font-family: 'Microsoft JhengHei UI';
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-active {
+  padding-bottom: 4px;
+  background: #72CDFD;
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-active a{
+  color: black;
+}
+#ui-datepicker-div {
+  background: white;
+}
+#ui-datepicker-div .ui-datepicker-header {
+  background: #006ba6;
+  border: none;
+}
+.custom-section {
+  margin-top: 5px;
+}
+.tabHover a {
+  padding: 10px 20px;
+}
+/*tabs ends*/
+.user-area {
+  padding: 10px 20px;
+}
+.qa-area {
+  margin-left: 10px;
+}
+.farm-area , .integration-area, .infrastructure-area, .authsso-area{
+  margin-top: 10px;
+}
+.farm-list li , .integration-area li, .infrastructure-area li, .authsso-area li{
+  font-weight: normal;
+  font-size: 14px;
+  list-style-type: decimal;
+  margin-bottom: 10px;
+}
+.farm-list li a, .integration-area li a, .infrastructure-area li a, .authsso-area li a{
+  color: blue;
+  font-weight: bold;
+}
+.integration-area li a{
+  color: blue;
+  font-weight: bold;
+}
+.farm-area-options {
+  margin-left: 20px;
+}
+.infrastructure-options {
+  /*margin-left: 0px;*/
+}
+.half-width{
+  width: 50%;
+}
+/*multiselect*/
+.ui-multiselect {
+  padding: 5px !important;
+}
+.ui-multiselect-menu {
+  background-color: white !important;
+  padding: 0px !important;
+}
+.ui-multiselect-header {
+  background: #006BA6 !important;
+  border: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.ui-multiselect-checkboxes {
+  height: auto !important;
+  overflow: auto;
+  max-height: 250px;
+}
+/*multiselect*/
+
+.nonProdFields{
+    padding: 15px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: #A8D9EC;
+
+}
+#tabs-3 .nonProdArea h1 {
+  background: #A8D9EC;
+    color: black;
+    border: none;
+}
+#tabs-3 .prodArea h1 {
+  background: #ADCAB8;
+    color: black;
+    border: none;
+}
+.prodArea .prodFields{
+  background-color: #ADCAB7;
+}
+.btn-success {
+  padding: 4px 5px !important;
+}
+.farm-list li.noListNumber, .authsso-options li.noListNumber {
+  list-style-type: none;
+}
+.saveSection {
+  padding: 15px;
+}
+.saveSection .btnPrev, .saveSection .btnNext {
+  color: white;
+}
+.saveSection .btnPrev:hover, .saveSection .btnNext:hover {
+  color: #000000;
+}
+.ssoHeaderVariablesExplain {
+  padding-left: 15px;
+}
+.headerVariablesExplain {
+    display: block;
+    width: 99%;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 3px 3px 3px 3px;
+    outline: rgb(85, 85, 85) none 0px;
+    padding: 5px 10px;
+}
+li:hover {
+  /*background:white;*/
+}
+.help-block li {
+  list-style-type: none;
+}
+#tabs-5 .downloadTestCases a , #tabs-6 .downloadTestCases a {
+  color: white;
+  margin-top: 4px;
+}
+#tabs-5 .downloadTestCases a:hover , #tabs-6 .downloadTestCases a:hover {
+  color: black;
+}
+.testCasesContent {
+    box-shadow: 1px 1px 5px 1px grey;
+    background-color: white;
+    padding: 12px 23px;
+}
+.uploadTestResults {
+    box-shadow: 1px 1px 5px 1px grey;
+    background-color: white;
+    padding: 12px 23px;
+    margin-top: 5px;
+}
+.uploadTestResultsFile  {
+  color: transparent;
+  display: inline-block !important;
+  width: 17%;
+  border: none;
+}
+.uploadTestResultsFile::-webkit-file-upload-button {
+  visibility: hidden;
+}
+.uploadTestResultsFile::before {
+  content: 'Choose file';
+  color: black;
+  display: inline-block;
+  background: -webkit-linear-gradient(top, #f9f9f9, #e3e3e3);
+  border: 1px solid #999;
+  border-radius: 3px;
+  padding: 5px 8px;
+  outline: none;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  cursor: pointer;
+  text-shadow: 1px 1px #fff;
+  font-weight: 700;
+  font-size: 10pt;
+}
+.uploadTestResultsFile:hover::before {
+  border-color: black;
+}
+.uploadTestResultsFile:active {
+  outline: none;
+}
+.uploadTestResultsFile:focus {
+  outline: none;
+}
+.uploadTestResultsFile:active::before {
+  background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9); 
+}
+.uploadTestResultsUpload, .uploadZipFileAction {
+    color: white;
+    background: #3FB618;
+    border-radius: 3px;
+    border: none;
+    padding: 3px 11px;
+    border: 1px solid #999;
+}
+.uploadTestResultsUpload:hover , .uploadZipFileAction:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+.myLabel {
+    position: relative;   
+    text-align: center;
+    border: 1px solid #999;
+    border-radius: 3px;
+    font-size: 20px;
+    background: -webkit-linear-gradient(top, #f9f9f9, #e3e3e3);
+    cursor: pointer;
+    width: 200px;
+    display: inline-block;
+}
+.myLabel input {
+    position: absolute !important;
+    z-index: 2;
+    opacity: 0;
+    width:100%;
+}
+.myLabel:hover {
+  color: #006ba6;
+}
+input[type="file"]:hover {
+  cursor: pointer;
+}
+
+.downloadLinkForTestResults a{
+    color: blue;
+}
+#tabs-1 .uploadedDiagrams{
+    background-color: #eee !important;
+    padding: 12px 23px;
+    margin-top: 10px;
+    width: 70%;
+}
+#tabs-1 .appserverversionsection .row div {
+  padding-right: 2px;
+}
+#tabs-6 .uploadedTestResultsFieldset {
+    background-color: #E4E4E4 !important;
+    padding: 12px 23px;
+    margin-top: 10px;
+    width: 70%;
+}
+#tabs-7 {
+  margin-bottom: 25%;
+}
+#tabs-7 .uploadedZipFieldset{
+    background-color: #eee !important;
+    padding: 12px 23px;
+    margin-top: 10px;
+    width: 70%;
+}
+#tabs-7 .certificateSection{
+  background-color: white;
+    margin-bottom: 5px;
+}
+#tabs-7 .appDomain {
+  padding: 9px 8px;
+}
+#tabs-7 .workOrder {
+  padding: 11px 37px;
+}
+#tabs-7 .uploadedZipDiv {
+  margin-top: 0;
+}
+#tabs-7 .uploadedZipDiv a{
+  /*color: white;*/
+}
+.errorMessage {
+    color: #FF1010;
+    font-size: 11px;
+    padding: 4px;
+    margin-top: 5px;
+    /*width: 185px;*/
+}
+.flexselect_dropdown {
+  display: none;
+  position: absolute;
+  z-index: 999999;
+  margin: 0;
+  padding: 0;
+  border: 1px solid WindowFrame;
+  max-height: 200px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background-color: Window;
+  color: WindowText;
+  text-align: left;
+  box-shadow: 0 6px 12px #ccc;
+  -webkit-box-shadow: 0 6px 12px #ccc;
+}
+
+.flexselect_dropdown ul {
+  width: 100%;
+  list-style-position: outside;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.flexselect_dropdown li {
+  margin: 0px;
+  padding: 2px 5px;
+  cursor: pointer;
+  display: block;
+  width: 100%;
+  font: Menu;
+  overflow: hidden;
+}
+
+.flexselect_dropdown li.disabled {
+  cursor: not-allowed;
+  color: GrayText;
+}
+
+.flexselect_selected {
+  background-color: Highlight;
+  color: HighlightText;
+}
+.flexselect {
+  height: 31px;
+  font-size: 13px;
+  line-height: 1.5;
+  display: block;
+  width: 100%;
+  padding: 10px 18px;
+  font-size: 15px;
+  line-height: 1.42857143;
+  color: #333333;
+  background-color: #ffffff;
+  background-image: none;
+  border: 1px solid #cccccc;
+  border-radius: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+.flexselect:hover {
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+}
+
+#testUsers {
+    font-size: 12px;
+}
+#tabs-1 .webserverdropdowns {
+  width: 210px;
+}
+#tabs .fieldsMandatory {
+    color: red;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.nonProdArea .envBottom, .prodArea .envBottom {
+  margin-bottom: 5px;
+}
+#qaDiv p {
+  margin-top: 6px;
+}
+.scrollup {
+    bottom: 29px;
+    box-sizing: border-box;
+    cursor: pointer;
+    /*height: 49px;*/
+    position: fixed;
+    right: 29px;
+    text-align: center;
+    width: 49px;
+    z-index: 0;
+    perspective-origin: 24.5px 24.5px;
+    transform-origin: 24.5px 24.5px;
+    border: 1px solid rgb(0, 107, 166);
+    border-radius: 25px 25px 25px 25px;
+    
+} 
+.scrollup:hover {
+    background-color: #006BA6;
+    color: white;
+}
+.submitTestResultsUpload {
+      color: white;
+    background: #3FB618;
+    border-radius: 3px;
+    border: none;
+    padding: 3px 11px;
+    border: 1px solid #3FB618;
+}
+#approveTestResults {
+  color: white;
+    background: #186CB6;
+    border-radius: 3px;
+    border: none;
+    padding: 3px 11px;
+    border: 1px solid #186CB6;
+}
+#rejectTestResults {
+    color: white;
+    background: #EA1D1D;
+    border-radius: 3px;
+    border: none;
+    padding: 3px 11px;
+    border: 1px solid #EA1D1D;
+}
+.submitTestResultsUpload:hover , #approveTestResults:hover, #rejectTestResults:hover{
+      color: black;
+    background: white;
+    border: 1px solid black;
+}
+.ui-tabs .ui-tabs-nav {
+  padding: 0;
+}
+.rejectDiv {
+  padding: 10px;
+}
+.alignquestions {
+  margin-left: 15px;
+}
+div.tooltip-inner {
+  max-width: 500px !important;
+}
+#tabs-3 .verysmall {
+  font-size: 75%;
+} 
+.helpbubble {
+  cursor: pointer;
+}
+.helpbubblelink , .helpbubbleheading {
+  color: yellow;
+}
+.popover{
+    max-width: 80%;
+    background-color: #006BA6;
+    color: white;
+    opacity: 0.7;
+}
+.popover.top .arrow:after {
+  border-top-color: #006BA6;
+}
+.modal.in .modal-dialog {
+      margin-top: 90px;
+      width: 98%;
+}
+#myModal .modal-body {
+  overflow-y: auto;
+    max-height: 420px;
+    width: 100%;
+}
+#tabs-3 .input-group[class*="col-"] {
+  padding-left: 14px;
+}
+.table-bordered > thead > tr > th  {
+  background-color: #006BA6;
+  color: white;
+}
+.table-bordered > thead > tr > th, .table-bordered > tbody > tr > td {
+  font-size:12px;
+  text-align: center;
+  vertical-align: middle;
+  /*white-space: nowrap;*/
+} 
+#agreeCheckboxDiv {
+  text-align: center;
+}
+#myModal .btn-primary {
+  color: white;
+}
+#myModal .btn-primary:hover {
+    color: black;
+}
+
+.blockUI h3 {
+    font-size: 17px;
+    font-weight: bold;
+}
