@@ -1,0 +1,43 @@
+$("#goLiveDateId").datepicker();
+function showSearchContext(){
+	$('#goLiveDateId,#statusType,#tierStatus,#inputTxt').val('');
+	$('#searchBtn').attr('disabled', true);
+	if($('#search').val()=='status'){
+		$('#statusType').show();
+		$('#inputTxtId,#dateId,#tierStatus').hide();
+	}else if($('#search').val()=='tier'){
+		$('#tierStatus').show();
+		$('#inputTxtId,#statusType,#dateId').hide();
+	}else if($('#search').val()=='goLiveDate'){
+		$('#dateId').show();
+		$('#statusType,#tierStatus,#inputTxtId').hide();
+	}else if($('#search').val()=='tro'){
+		$('#inputTxtId').show();
+		$('#statusType,#tierStatus,#dateId').hide();
+	}else {
+		$('#inputTxtId,#statusType,#tierStatus,#dateId').hide();
+	}
+}
+function getContext(){
+	searchType = $('#search').val();
+	if(searchType =='goLiveDate'){
+		searchInputVal = $('#goLiveDateId').val();		
+	} else if(searchType=='status'){
+		searchInputVal = $('#statusType').val();		
+	} else if(searchType=='tier'){
+		searchInputVal = $('#tierStatus').val();
+	} else{
+		searchInputVal = $('#inputTxt').val();
+	}
+	if(searchInputVal.length > 0)
+		$('#searchBtn').attr('disabled', false);
+	else
+		$('#searchBtn').attr('disabled', true);
+
+}
+function submitForm(){
+ 	$("#searchType").val(searchType);
+ 	$("#searchValue").val(searchInputVal);
+    $("#searchForm").submit();
+}
+ 
